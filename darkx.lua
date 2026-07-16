@@ -1,11 +1,11 @@
-local version = "2.8"
+local version = "2.7"
 
 local function run()
-  print("DarkX-Exector updated to version " .. version)
+  print("DarkX-Exector version " .. version)
   return {
-    status = "updated",
+    status = "ready",
     version = version,
-    message = "The script has been published successfully."
+    message = "Script is ready for update publishing."
   }
 end
 
